@@ -3,34 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CarqIPeshkite
+namespace KingSurvaival
 {
-    class Peshka
+    /// <summary>
+    /// Rename class name from "Peshka" to "Pawn"
+    /// </summary>
+    class Pown
     {
         //tova e klasa Peshka, koito zadava peshak s koordinati X i Y
 
-        int x;
-        int y;
+        /// <summary>
+        /// Removed x and y property with "Point"
+        /// </summary>
+        public Point Point { get; set; }
 
-        public Peshka()
+        public Pown()
         {
-            this.x = 0;
-            this.y = 0;
+            this.Point = new Point();
         }
-        public Peshka(int x, int y)
+
+        public Pown(int x, int y)
         {
-            this.x = x;
-            this.y = y;
-        }
-        public int X
-        {
-            get { return x; }
-            set { x = value; }
-        }
-        public int Y
-        {
-            get { return y; }
-            set { y = value; }
+            this.Point = new Point(x, y);
         }
 
     }
