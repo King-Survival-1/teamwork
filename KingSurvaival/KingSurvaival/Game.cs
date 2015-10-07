@@ -13,13 +13,13 @@ namespace KingSurvival
 
 
         
-        static Pown peshkaA = new Pown(1, 0);
+        static Pawn peshkaA = new Pawn(1, 0);
         
-        static Pown peshkaB = new Pown(3, 0);
+        static Pawn peshkaB = new Pawn(3, 0);
         
-        static Pown peshkaC = new Pown(5, 0);
+        static Pawn peshkaC = new Pawn(5, 0);
         
-        static Pown peshkaD = new Pown(7, 0);
+        static Pawn peshkaD = new Pawn(7, 0);
         
         static bool isKingTurn = true;
 

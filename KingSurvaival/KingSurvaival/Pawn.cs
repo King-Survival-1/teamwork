@@ -8,7 +8,7 @@ namespace KingSurvaival
     /// <summary>
     /// Rename class name from "Peshka" to "Pawn"
     /// </summary>
-    class Pown
+    class Pawn
     {
         //tova e klasa Peshka, koito zadava peshak s koordinati X i Y
 
@@ -17,12 +17,12 @@ namespace KingSurvaival
         /// </summary>
         public Point Point { get; set; }
 
-        public Pown()
+        public Pawn()
         {
             this.Point = new Point();
         }
 
-        public Pown(int x, int y)
+        public Pawn(int x, int y)
         {
             this.Point = new Point(x, y);
         }
